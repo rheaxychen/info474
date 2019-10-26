@@ -54,7 +54,7 @@ function makeScatterPlot(csvData) {
 
     // draw title and axes labels
     let title = "Life Expectency vs Fertility"; 
-    makeLabels(svgContainer, msm, "Life Expectency vs Fertility",'Fertility Rates (Avg Children per Woman)','Life Expectancy (years)');
+    makeLabels(svgContainer, msm, "Life Expectency vs Fertility",'Fertility Rates','Life Expectancy');
 
     let distinctYears = [...new Set(data.map(d => d.time))];
     let defaultYear = 2014;
